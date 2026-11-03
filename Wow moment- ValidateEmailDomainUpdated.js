@@ -2,16 +2,16 @@
 function validateEmailDomain(executionContext) {
     var formContext = executionContext.getFormContext();
 
-    alert("Function Triggered");
+   // alert("Function Triggered");
 
-    console.log(executionContext);
+    //console.log(executionContext);
 
     if (executionContext == null) {
         alert("Execution Context Not Passed");
         return;
     }
 
-    alert("Execution Context Passed");
+   // alert("Execution Context Passed");
 
     var email = formContext.getAttribute("pk_emailaddress").getValue();
 
